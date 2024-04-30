@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apps by GDSC IARE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        * {
+            font-family: "Plus Jakarta Sans", sans-serif;
+        }
+
+        a {
+            outline: none;
+            text-decoration: none;
+            text-decoration-style: none;
+            color: inherit;
+        }
+
+        #logo {
+            max-width: 20rem;
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+
+
+        #navbar {
+            margin: 0.8rem 1.75rem;
+            overflow-y: hidden;
+            overflow-x: auto;
+            white-space: nowrap;
+            cursor: grab;
+            text-align: center;
+        }
+
+        #navbar::-webkit-scrollbar {
+            background-color: transparent;
+        }
+
+        #menuButton {
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            background-color: #F8F8F8;
+            display: inline-block;
+            margin: 0 0.1rem;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .container {
+            border-radius: 1.5rem;
+            border: 1px solid #f4f4f4;
+            background: #f8f8f8;
+            width: 95%;
+            margin: 0 auto;
+        }
+
+        #innerContainer {
+            margin: 0 1.75rem;
+        }
+
+        #projectLogo {
+            height: clamp(6rem, 2vw, 8rem);
+            width: clamp(6rem, 2vw, 8rem);
+            background-color: white;
+            border-radius: 1rem;
+            border: 1px solid #d8d8d8;
+            margin-top: 2.5rem;
+        }
+
+        h2 {
+            color: #4e4e4e;
+            font-size: 3rem;
+            font-weight: 800;
+            letter-spacing: -0.07rem;
+        }
+
+        p,
+        ul {
+            color: #595959;
+            font-size: clamp(1vw, 1.5vw, 2.5vw);
+
+            @media (max-width: 768px) {
+                font-size: 4vw;
+            }
+
+            font-weight: 300;
+            line-height: 190%;
+            /* 1.1875rem */
+            letter-spacing: -0.015rem;
+        }
+
+        button {
+            border-radius: 0.5625rem;
+            border: 1px solid #81b3e0;
+            background: #fff;
+            color: #3167b8;
+            margin-top: 1.75rem;
+            font-size: clamp(2vw, 2vh, 4vw);
+            padding: 1vh 2vh;
+            letter-spacing: -0.015rem;
+            cursor: pointer;
+        }
+
+        h4 {
+            color: #595959;
+            font-size: clamp(2vh, 1vh, 3vw);
+            font-weight: 500;
+            line-height: 190%;
+            /* 1.425rem */
+            letter-spacing: -0.01875rem;
+            margin-top: 3rem;
+            margin-left: 1vw;
+        }
+
+        #authorCard {
+            border-radius: 1rem;
+            border: 2px solid #eaeaea;
+            background: #fcfcfc;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            max-width: 30rem;
+            padding: 0.1vh 0;
+            margin-bottom: 1rem;
+        }
+
+        #authorIcon {
+            width: clamp(6vh, 4vw, 5vw);
+            height: clamp(6vh, 4vw, 5vw);
+            border-radius: 100%;
+            margin-left: clamp(10px, 4vw, 20px);
+        }
+
+        h5 {
+            margin-left: clamp(1rem, 1rem, 3rem);
+            font-weight: 500;
+            font-size: clamp(16px, 3vw, 24px);
+            color: #3167B8;
+        }
+    </style>
+</head>
+
+<body class="animate__animated animate__fadeIn">
+    <div class="logoContainer">
+        <img id="logo" src="Apps GDSC IARE Logo.png" alt="" />
+    </div>
+    <div id="navbar">
+    </div>
+    <div class="container">
+        <div id="innerContainer">
+            <img id="projectLogo" src="https://weboris.vercel.app/image.gif" alt="" />
+            <h2 id="projectTitle">Intro</h2>
+            <p id="projectDesc">
+                Welcome to Apps by GDSC IARE! Explore the amazing projects created by our talented community members.
+                From web apps to mobile apps, we have a wide variety of projects that solve major real time problems. Click on any
+                project to learn more about it and discover the innovative solutions developed by our community.
+            </p>
+            <ul id="projectFeatures">
+                <li>Clean and minimal design</li>
+                <li>Wide variety of projects</li>
+                <li>Innovative solutions</li>
+                <li>Community-driven</li>
+                <li>Built with latest stuff</li>
+            </ul>
+            <button id="projectLink">Project Link</button>
+            <h4 id="projectSubtitle">Developed By</h4>
+            <div id="authorGroup">
+                <div id="authorCard">
+                    <img id="authorIcon" src="https://ui-avatars.com/api/?name=Ujjwal Shivacharya.png" alt="" />
+                    <h5 id="authorName"><a href="https://www.linkedin.com/in/ujjwalshiva">Ujjwal Shivacharya</a></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

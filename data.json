@@ -1,0 +1,123 @@
+{
+    "projects": [
+        {
+            "projectTitle": "Blogs Hub",
+            "projectDesc": "GDSC IARE Blogs Hub is a website built for sharing technical blogs...",
+            "features": [
+                "Clean and minimal design",
+                "Wide variety of topics",
+                "Regularly updated with new articles and blog posts",
+                "Easy to use",
+                "Mobile-friendly"
+            ],
+            "authorName": ["Ujjwal Shivacharya"],
+            "authorPic": "",
+            "projectLink": "https://gdsciareblogs.vercel.app",
+            "projectLogo": "../public/images/screenshots/blogs_hub_ss.png"
+        },
+        {
+            "projectTitle": "Certification Client",
+            "projectDesc": "The Certification Client is a user-friendly web application...",
+            "features": [
+                "Simplified certificate generation for technical events",
+                "User-friendly web interface",
+                "Efficiently eliminates manual certificate design and data entry",
+                "Supports bulk certificate generation",
+                "Download certificates in printable format or share electronically"
+            ],
+            "authorName": ["Ujjwal Shivacharya", "Vishnu Sai Nadella"],
+            "authorPic": "",
+            "projectLink": "https://consortium-2022.streamlit.app",
+            "projectLogo": "../public/images/screenshots/certification_client_ss.png"
+        },
+        {
+            "projectTitle": "Check Fast App",
+            "projectDesc": "This is an Android App submission made to Google Developers...",
+            "features": [
+                "Check college attendance",
+                "Plan your next CGPA",
+                "Split food bills easily with friends"
+            ],
+            "authorName": ["Praneetha Peniji", "Core Team - GDSC IARE"],
+            "authorPic": "",
+            "projectLink": "https://github.com/praneetha28-ai/checkFast",
+            "projectLogo": "../public/images/screenshots/checkfast_ss.png"
+        },
+        {
+            "projectTitle": "CodeLink Web App",
+            "projectDesc": "Codelink is an online platform where developers can share...",
+            "features": ["Easy to use", "Secure", "Collaborative", "Learning"],
+            "authorName": ["Ujjwal Shivacharya"],
+            "authorPic": "",
+            "projectLink": "https://gdsciare.club/codelink",
+            "projectLogo": "../public/images/screenshots/codelink_ss.png"
+        },
+        {
+            "projectTitle": "DigiAuth App",
+            "projectDesc": "DigiAuth is an online app that allows event organizers to...",
+            "features": ["Quick", "Secure", "Reliable"],
+            "authorName": ["Vishnu Sai Nadella"],
+            "authorPic": "",
+            "projectLink": "Contact Vishnu",
+            "projectLogo": "../public/images/screenshots/digiauth_ss.gif"
+        },
+        {
+            "projectTitle": "NBA Tracker Bot",
+            "projectDesc": "NBA Tracker bot is a Telegram bot that instantly sends updates...",
+            "features": ["Instant updates", "Live results", "Easy to use"],
+            "authorName": ["Sri Vishal Lanka"],
+            "authorPic": "",
+            "projectLink": "https://t.me/nbaupdates_bot",
+            "projectLogo": "../public/images/screenshots/nbatracker_ss.png"
+        },
+        {
+            "projectTitle": "Open Source Platform",
+            "projectDesc": "GDSC IARE Open Source Platform is a mega website that stores...",
+            "features": ["Events", "Projects", "Resources", "Community"],
+            "authorName": ["Ujjwal Shivacharya"],
+            "authorPic": "",
+            "projectLink": "https://docs.gdsciare.club",
+            "projectLogo": "../public/images/screenshots/os_platform_ss.png"
+        },
+        {
+            "projectTitle": "QBS Archive",
+            "projectDesc": "QBS Archive is a website where students of IARE can obtain...",
+            "features": ["Solutions", "Contributions", "Search", "Easy to use"],
+            "authorName": ["Ujjwal Shivacharya"],
+            "authorPic": "",
+            "projectLink": "https://qbsolutions.gdsciare.club/",
+            "projectLogo": "../public/images/screenshots/qbsarchive_ss.png"
+        },
+        {
+            "projectTitle": "ToShare - Share Files using words",
+            "projectDesc": "ToShare is a cool web app that allows you to share files...",
+            "features": ["Decentralized", "Easy to use", "Secure", "Private"],
+            "authorName": ["Rishi Raj"],
+            "authorPic": "",
+            "projectLink": "https://toshare.vercel.app/",
+            "projectLogo": "../public/images/screenshots/toshare_ss.png"
+        },
+        {
+            "projectTitle": "IARE The Events App",
+            "projectDesc": "This is a work in progress. Stay Tuned to be blown away :)",
+            "authorName": ["Vishnu Sai Nadella", "Ujjwal Shivacharya"],
+            "authorPic": "",
+            "projectLink": "Coming Soon",
+            "projectLogo": null
+        },
+        {
+            "projectTitle": "Weboris Web App",
+            "projectDesc": "Weboris is a web app that helps students of IARE download...",
+            "features": [
+                "Download lab sheets",
+                "Responsive design",
+                "Check lab sheets based on roll number",
+                "Fetches required lab sheets conveniently"
+            ],
+            "authorName": ["Sri Vishal Lanka", "Syed Ikram Uddin"],
+            "authorPic": "",
+            "projectLink": "https://gdsciare.club/weboris",
+            "projectLogo": "../public/images/screenshots/weboris_ss.png"
+        }
+    ]
+}
